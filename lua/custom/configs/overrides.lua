@@ -40,7 +40,6 @@ M.mason = {
     "deno",
     "prettier",
     "intelephense",
-    "blade-formatter",
 
     -- c/cpp stuff
     "clangd",
