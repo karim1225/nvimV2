@@ -5,7 +5,7 @@ local lspconfig = require "lspconfig"
 local util = require "lspconfig/util"
 
 -- if you just want default config for the servers then put them in a table
-local servers = { "html", "cssls", "tsserver", "clangd", "volar", "svelte" }
+local servers = { "html", "cssls", "tsserver", "clangd", "volar", "svelte","intelephense" }
 
 require("noice").setup {
   lsp = {

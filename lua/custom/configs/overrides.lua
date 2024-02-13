@@ -15,7 +15,8 @@ M.treesitter = {
     "rust",
     "vue",
     "vim",
-    "svelte"
+    "svelte",
+    "php",
   },
   indent = {
     enable = true,
@@ -38,6 +39,8 @@ M.mason = {
     "typescript-language-server",
     "deno",
     "prettier",
+    "intelephense",
+    "blade-formatter",
 
     -- c/cpp stuff
     "clangd",
